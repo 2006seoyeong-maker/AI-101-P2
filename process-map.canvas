@@ -1,0 +1,84 @@
+{
+  "nodes": [
+    {
+      "id": "01",
+      "type": "text",
+      "text": "# Step 1: Gather lecture materials\n\nInput: slides and my in-class keywords. Keep the original material available for checking.",
+      "x": 80,
+      "y": 100,
+      "width": 360,
+      "height": 245,
+      "color": "1"
+    },
+    {
+      "id": "02",
+      "type": "text",
+      "text": "# Step 2: Mark missing concepts\n\nIdentify terms, examples, and explanations I missed or cannot explain. Mark uncertainty instead of guessing.",
+      "x": 510,
+      "y": 100,
+      "width": 360,
+      "height": 245,
+      "color": "1"
+    },
+    {
+      "id": "03",
+      "type": "text",
+      "text": "# Step 3: Organize a draft guide\n\nArrange concepts, examples, and possible connections. Add review questions and cite the relevant slide or note.",
+      "x": 940,
+      "y": 100,
+      "width": 360,
+      "height": 245,
+      "color": "1"
+    },
+    {
+      "id": "04",
+      "type": "text",
+      "text": "# Step 4: HUMAN CHECK — my decision\n\nI choose what matters, check connections against class material, explain them in my own words, and keep/change/remove each item.",
+      "x": 1370,
+      "y": 100,
+      "width": 360,
+      "height": 245,
+      "color": "4"
+    },
+    {
+      "id": "05",
+      "type": "text",
+      "text": "# Step 5: Recall and correct\n\nClose the guide, answer questions from memory, compare with class material, and note what to revisit later.",
+      "x": 1800,
+      "y": 100,
+      "width": 360,
+      "height": 245,
+      "color": "1"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e01",
+      "fromNode": "01",
+      "fromSide": "right",
+      "toNode": "02",
+      "toSide": "left"
+    },
+    {
+      "id": "e12",
+      "fromNode": "02",
+      "fromSide": "right",
+      "toNode": "03",
+      "toSide": "left"
+    },
+    {
+      "id": "e23",
+      "fromNode": "03",
+      "fromSide": "right",
+      "toNode": "04",
+      "toSide": "left"
+    },
+    {
+      "id": "e34",
+      "fromNode": "04",
+      "fromSide": "right",
+      "toNode": "05",
+      "toSide": "left"
+    }
+  ]
+}
